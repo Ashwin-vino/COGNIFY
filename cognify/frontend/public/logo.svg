@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="cogGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#cogGrad)" />
+  <path d="M50 22L76 37V63L50 78L24 63V37L50 22Z" stroke="white" stroke-width="6" stroke-linejoin="round" />
+  <circle cx="50" cy="50" r="10" fill="white" />
+  <path d="M50 22V50M76 37L50 50M76 63L50 50M50 78V50M24 63L50 50M24 37L50 50" stroke="white" stroke-width="3" stroke-linecap="round" opacity="0.6" />
+</svg>

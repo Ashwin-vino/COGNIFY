@@ -1,0 +1,12 @@
+{
+  "name": "cognify-workspace-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cognify Workspace Root Wrapper",
+  "scripts": {
+    "dev": "cd cognify && npm run dev",
+    "build": "cd cognify && npm run build",
+    "test": "cd cognify && npm test",
+    "start": "cd cognify && npm start"
+  }
+}
