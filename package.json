@@ -4,8 +4,10 @@
   "private": true,
   "description": "Cognify Workspace Root Wrapper",
   "scripts": {
+    "postinstall": "npm run install:all",
+    "install:all": "cd cognify && npm run install:all",
     "dev": "cd cognify && npm run dev",
-    "build": "cd cognify && npm run build",
+    "build": "npm run install:all && cd cognify && npm run build",
     "test": "cd cognify && npm test",
     "start": "cd cognify && npm start"
   }
